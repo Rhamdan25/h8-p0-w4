@@ -8,6 +8,7 @@ function angkaPrima(angka) {
           result.push(angka / i)
         }    
     }
+    // console.log(result);
     if (result.length === 2) {
         return true
     } else {
